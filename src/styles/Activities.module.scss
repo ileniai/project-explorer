@@ -1,8 +1,19 @@
 .Activities {
-    margin-top:75px;
-    border:2px solid red;
-    max-height: 400px;
-    max-width: 600px;
-    overflow-X: scroll;
+  position: absolute;
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.35);
+  
+  height: 73%;
+  display: flex;
+  flex-direction: column;
+  margin-top: 50px;
+  align-items: center;
+
+    .title{
+      text-align: center;
+      margin-top: 5px;
+      color:#535250eb;
+      text-shadow: #969593d0;
+      font-size: 2rem;
+    }
   }
   

@@ -16,11 +16,11 @@ export default function Activities() {
   return (
     <div className={styles.Activities}>
       <section>
-        <h2>Restaurants</h2>
+        <h2 className={styles.title} >Restaurants</h2>
         <ActivitiesList data={activities} />
       </section>
       <section>
-        <h2>Museum</h2>
+        <h2 className={styles.title}>Museum</h2>
         <ActivitiesList data={filterActivities(activities, "Museum")} />
       </section>
     </div>

@@ -10,9 +10,9 @@ const ActivityCard = ({ data }) => {
 
   return (
     <div className={styles.ActivityCard} onClick={onHandleClick}>
-      <img src={data.image.url} alt={data.name} />
-      <h3>{data.name}</h3>
-      <p>Phone: {data.telephone} $</p>
+      <img className={styles.image} src={data.image.url} alt={data.name} />
+      <h3 className={styles.title}>{data.name}</h3>
+      <p className={styles.phone}>Phone: {data.telephone} $</p>
     </div>
   );
 };

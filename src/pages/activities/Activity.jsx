@@ -19,26 +19,26 @@ export default function Activity() {
     <div className={styles.Activity}>
       {activity.name ? (
         <>
-          <img src="https://streetviewhub.com/feed?id=true" alt={activity.title} />
-          <section className={styles.texts}>
-            <Link to="/activities">
-              <button>Torna indietro</button>
+          <img src={activity.image.url} alt={activity.name} />
+          <section>
+            <Link  to="/activities">
+              <button className={styles.btn}>Torna indietro</button>
             </Link>
             <h1>{activity.name}</h1>
-            <p>{activity.telephone}</p>
+            <p className={styles.phone}> 📞  {activity.telephone}</p>
             <ul>
               {activity.address.length &&
                 activity?.address.map((addr, i) => (
                   <li key={i}>
-                    <p>Country: {addr.addressCountry}</p>
+                    <p className={styles.fff}>Country: {addr.addressCountry}</p>
                     <p>Locality: {addr.addressLocality}</p>
                     <p>Region: {addr.addressRegion}</p>
                   </li>
                 ))}
             </ul>
             <iframe
-              width="600"
-              height="450"
+              width="500"
+              height="245"
               src={`https://maps.google.com/maps/?q=+${activity.geo.latitude}+,+${activity.geo.longitude}&output=embed`}
             ></iframe>
           </section>

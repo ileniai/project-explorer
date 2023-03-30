@@ -1,15 +1,30 @@
 .ActivityCard {
+  width: 180px;
   box-shadow: 0 0 4px rgba(0, 0, 0, 0.35);
   cursor: pointer;
   transition: transform 0.35s;
-
+  
   &:hover {
     transform: scale(0.9);
   }
 
-  img {
-    width: 100px;
-    height: 100px;
+  .image{
+    border-radius: 4px;
+    box-shadow: 5px 5px #888888;
+    width: 120px;
+    padding:5px;
     object-fit: cover;
   }
+
+  .title{
+    text-align: center;
+    font-size: 0.9rem;
+  }
+  .phone{
+    text-align: center;
+    font-size: 0.9rem;
+  }
+  
+    
+  
 }

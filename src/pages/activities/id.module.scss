@@ -1,31 +1,52 @@
 .Activity {
+    position: absolute;
     box-shadow: 0 0 4px rgba(0, 0, 0, 0.35);
+    width: 98%;
+    height: 73%;
     display: flex;
     flex-direction: column;
-    margin: 10px;
+    margin-top: 50px;
     align-items: center;
+
+    img {
+      position: relative;
+      right: 0px;
+      margin-top: 0px;
+      width: 150px;
+      height: 150px;
+      padding:15px;
+      object-fit: contain;
+    }
   
     section{
       display: flex;
       flex-direction: column;
+      align-items: center;
+
+      .btn{
+        position: fixed;
+        top:70px;
+        right: 40px;
+        background-color: transparent;
+        border-radius: 6px;
+        box-shadow: 5px 5px #969593d0;
+        width: 100px;
+        height: 40px;
+        cursor: pointer;
       }
 
-    img {
-      margin-top: 10px;
-      width: 50%;
-      height: 300px;
-      object-fit: cover;
-    }
+      h1{
+        color:#535250eb;
+        text-shadow: #969593d0;
+        font-size: 2rem;
+        margin-top: 0;
+      }
 
-    button{
-      position: fixed;
-      top:80px;
-      right: 60px;
-      background: none;
-      border: none;
-      font-size: 2rem;
-      color:rgba(0, 0, 0, 0.82);
-      cursor: pointer;
-    }
+      .phone{
+        font-size: 1.3rem;
+        margin-top: 0;
+        margin-bottom: 0;
+      }
 
+      }
   }

@@ -10,6 +10,10 @@
   padding: 0 40px;
   background-color: rgba(237, 236, 236, 0.74);
   box-sizing: border-box;
+
+  h1{
+    color: #383736ef;
+  }
   
   ul {
     width: 100vw;
@@ -23,7 +27,7 @@
 
       .link{
         text-decoration: none;
-        color:black;
+        color: #302a24fe;
       }
     }
   }
