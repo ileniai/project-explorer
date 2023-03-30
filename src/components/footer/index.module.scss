@@ -1,0 +1,41 @@
+.Footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(237, 236, 236, 0.74);
+    height: 150px;
+
+   form{
+    position: absolute;
+    right: 25%;
+    display: grid;
+    height: 125px;
+    grid-template-rows: repeat(7, min-content) 1fr;
+    grid-template-columns: 100%;
+    gap:10px;
+    input{
+      background-color: transparent;
+      border-radius: 0;
+      border-style: solid;
+      box-shadow: 0 0 0 transparent;
+      box-sizing: border-box;
+      margin: 0;
+      color:white;
+    }
+    button{
+      background-color: #a09891e8;
+      span{
+        color:rgba(19, 19, 19, 0.801);
+      }
+    }
+   }
+   .text{
+    position: absolute;
+    left: 15%;
+    font-size: 1.4rem;
+  }
+  }
