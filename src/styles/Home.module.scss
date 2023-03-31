@@ -1,37 +1,18 @@
 .Home {
     width: 100vh;
-    height: 300px;
+    height: auto;
     display:flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 
-    h1{
         
-        position: relative;
-        top:350px;
-        font-size: 5rem;
-        color: white;
-        
-    }
-
-    section{
-        
-        display: flex;
-        justify-content: center;
-        align-items: center;
         img{
-            width: 100vh;
-            height: 100vh;
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 112vh;
+            height: 100%;
+            object-fit: cover;
         }
-    }
-    p{
-        margin:20px;
-    }
-
-    hr {
-        border: 0;
-        border-top: 5px double #CCC;
-        background-image: linear-gradient(to right, #ccc, #333, #ccc);
-      }
 }

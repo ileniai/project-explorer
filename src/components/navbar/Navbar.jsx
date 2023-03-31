@@ -11,7 +11,7 @@ const Navbar = () => {
 
   const onHandleSubmit = (e) => {
     e.preventDefault();
-    navigate(`/city/${inputValue.toLowerCase()}`);
+    navigate(`/activities?search=${inputValue}`);
     setInputValue(() => "");
   };
 
@@ -34,7 +34,7 @@ const Navbar = () => {
           value={inputValue}
           onChange={onHandleInput}
           type="text"
-          placeholder="Search..."
+          placeholder="🔍"
           required
         />
       </form>

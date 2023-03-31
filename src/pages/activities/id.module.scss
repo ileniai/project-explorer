@@ -1,48 +1,45 @@
 .Activity {
-    position: absolute;
-    box-shadow: 0 0 4px rgba(0, 0, 0, 0.35);
-    width: 98%;
-    height: 73%;
     display: flex;
     flex-direction: column;
-    margin-top: 50px;
     align-items: center;
 
     img {
-      position: relative;
-      right: 0px;
-      margin-top: 0px;
-      width: 150px;
-      height: 150px;
+      position: absolute;
+      top: 9px;
+      left: 0;
+      width: 140px;
+      height: 140px;
       padding:15px;
       object-fit: contain;
     }
   
     section{
-      display: flex;
-      flex-direction: column;
-      align-items: center;
+      margin: 90px;
 
       .btn{
-        position: fixed;
+        position: absolute;
         top:70px;
-        right: 40px;
+        right: 20px;
         background-color: transparent;
-        border-radius: 6px;
+        border-radius: 100%;
         box-shadow: 5px 5px #969593d0;
-        width: 100px;
-        height: 40px;
+        width: 60px;
+        height: 60px;
         cursor: pointer;
       }
 
       h1{
-        color:#535250eb;
+        text-align: center;
+        color: #383736ef;
         text-shadow: #969593d0;
-        font-size: 2rem;
-        margin-top: 0;
+        font-size: 1.5rem;
+       
       }
 
       .phone{
+        display: flex;
+        justify-content: center;
+        align-items: center;
         font-size: 1.3rem;
         margin-top: 0;
         margin-bottom: 0;

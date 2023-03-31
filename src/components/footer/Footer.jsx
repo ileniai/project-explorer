@@ -20,17 +20,17 @@ const Footer = () => {
           required
         />
         <input
-          type="text"
-          name="Message"
-          placeholder="Message"
-          label="Message"
+          type="num"
+          name="Password"
+          placeholder="Password"
+          label="Password"
           required
         />
         <button>
           <span>Submit</span>
         </button>
       </form>
-      <span className={styles.text}>Invia la tua richiesta..</span>
+      <span className={styles.text}>Registrati qui...</span>
     </div>
   );
 };

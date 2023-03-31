@@ -1,19 +1,18 @@
 .Activities {
-  position: absolute;
-  box-shadow: 0 0 4px rgba(0, 0, 0, 0.35);
-  
-  height: 73%;
-  display: flex;
-  flex-direction: column;
-  margin-top: 50px;
-  align-items: center;
-
+ 
+  section{
+    margin: 0;
     .title{
+      position: relative;
+      top: 9px;
       text-align: center;
-      margin-top: 5px;
       color:#535250eb;
       text-shadow: #969593d0;
       font-size: 2rem;
+      margin: 0;
     }
+  }
+
+    
   }
   

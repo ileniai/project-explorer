@@ -1,7 +1,7 @@
 .activitiesList {
   display: flex;
-  justify-content: center;
   gap: 20px;
-  padding:20px;
-  height: 180px;
+  margin: 7px;
+  font-size: 0.9rem;
+  overflow-x: scroll;
 }
